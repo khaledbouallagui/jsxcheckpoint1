@@ -1,8 +1,8 @@
-import logo from '..public';
-import './App.css';
-import myFirstImage from "../image"
-import './styles.css'
 
+import './App.css';
+import myFirstImage from "./image/skye.jpg"
+import './styles.css'
+import  myvideo from "./myvideo.mp4";
 
 function App() {
   return (
@@ -15,13 +15,14 @@ function App() {
       <br/>
       <img src={myFirstImage} alt ='myImage' />
       <br/>
-      <img src="/imagePublic.jpeg" alt="myImage" />
+      <img src="logo192.png" alt="myImage" />
       
      </div>
   
+
      <video width="320" height="240" controls>
 
-      <source src="/myVideo.mp4" type="video/mp4" />
+      <source src={myvideo} type="video/mp4" />
       </video>
  
       </header>
